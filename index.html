@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 
-<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>IT Services Hobart</title>
+<html lang="en"><head><script id="page-start-scroll-fix">
+(()=>{
+  if ('scrollRestoration' in history) history.scrollRestoration='manual';
+  const startAtTop=()=>{
+    if (location.hash) history.replaceState(null,'',location.pathname+location.search);
+    window.scrollTo({top:0,left:0,behavior:'auto'});
+  };
+  startAtTop();
+  window.addEventListener('pageshow',startAtTop,{once:true});
+  window.addEventListener('load',()=>requestAnimationFrame(startAtTop),{once:true});
+})();
+</script><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>IT Services Hobart</title>
 <style>
 :root{--navy:#031425;--orange:#f15a26;--ink:#071725;--muted:#6e6d72;--max:1360px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,sans-serif;color:#090a0d;overflow-x:hidden}a{text-decoration:none;color:inherit}.shell{width:min(var(--max),calc(100% - 72px));margin:auto}
 .hero{height:720px;position:relative;overflow:hidden;background:var(--navy);color:#fff}.hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center bottom}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(3,20,37,.25),rgba(3,20,37,.07) 42%,rgba(3,20,37,.28));pointer-events:none}.nav{height:88px;position:relative;z-index:3;display:flex;align-items:center;justify-content:space-between}.logo{display:flex;align-items:center;gap:12px}.logo-box{width:54px;height:54px;border-radius:13px;background:var(--orange);display:grid;place-items:center;font-size:28px;font-weight:800}.logo-copy{font-weight:800;font-size:22px;line-height:.84}.logo-copy span{display:block;color:#ff7259}.logo-copy small{display:block;font-size:8px;color:#fff;margin-top:9px}.nav-links{display:flex;align-items:center;gap:32px;font-size:15px;font-weight:600}.phone{padding:14px 22px;border-radius:99px;background:linear-gradient(90deg,#6d37d2,#22a9e7);font-weight:800}.hero-copy{position:absolute;z-index:3;top:144px;left:50%;transform:translateX(-50%);width:min(940px,90%);text-align:center}.hero h1{font-size:92px;line-height:.96;letter-spacing:-5px;margin:0 0 20px}.hero-copy p{max-width:720px;margin:auto;color:rgba(255,255,255,.76);font-size:20px;line-height:1.4}.hero-actions{position:absolute;z-index:3;left:4.5%;bottom:145px;display:flex;gap:16px}.btn{height:64px;padding:0 36px;border:1px solid rgba(255,255,255,.48);border-radius:99px;display:grid;place-items:center;font-weight:800;background:rgba(3,20,37,.16);backdrop-filter:blur(4px)}.hero-note{position:absolute;z-index:3;right:12%;bottom:150px;width:390px;font-size:27px;line-height:1.24}
